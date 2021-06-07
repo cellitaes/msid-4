@@ -17,9 +17,18 @@ Here we have an example of how the data looks:
 # How model looks like
 ![howModelLookLike](./image/howModelLookLike.png)
 
+#Conv2D
 Keras Conv2D is a 2D Convolution Layer, this layer creates a convolution kernel that is wind with layers input which helps produce a tensor of outputs.
+
+Imagine we have an image that is an 2D array of 5x5 pixels. The idea of a Convolutional Layer is to essentially create another grid of layers known as the kernel or filter. So for example we have an 5x5 image and 3x3 kernel to filter the image. Convolution is an operation of multiplying corresponding kernel and pixels values, summing them up and passing to another array of pixels.
+
 ![keras_conv2d](./image/keras_conv2d.gif)
 
+
+#MaxPooling2D
+Downsamples the input along its spatial dimensions (height and width) by taking the maximum value over an input window (of size defined by pool_size) for each channel of the input. The window is shifted by strides along each dimension.
+
+![MaxpoolSample2](./image/MaxpoolSample2.png)
 
 ![myAccu](./image/myAccu.png)
 
