@@ -11,3 +11,13 @@ Oto przykład, jak wyglądają dane:
 
 ##Pierwszym klasyfikatorem, który omówimy, jest KNN (k-najbliższych sąsiedów). Metryką odległości, którą zdecydowałem się użyć, jest odległość Manhattan. Algorytm KNN zakłada, że podobne rzeczy istnieją w bliskiej odległości. Parametr K reprezentuje liczbę sąsiadów, których bierzemy pod uwagę.
 
+
+
+![bestK](./image/bestK.png)
+
+![howModelLookLike](./image/howModelLookLike.png)
+
+![myAccu](./image/myAccu.png)
+
+![accuPlot](./image/accuPlot.png)
+
