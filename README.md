@@ -10,6 +10,7 @@ Here we have an example of how the data looks:
 
 
 ##First classifier we'll be covering is KNN (k-nearest neighbours). The Distance Metric I decided to use is Manhattan Distance. The KNN algorithm assumes that similar things exist in close proximity. K parameter represents number of neighbours we take into consideration.
+
 ![bestK](./image/bestK.png)
 
 
