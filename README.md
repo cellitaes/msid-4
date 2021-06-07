@@ -2,7 +2,7 @@
 Metody Systemowe i Decyzyjne zadanie 4
 
 
-#Fashion-MNIST ##Introduction The clue of the task is to implement a model that allows classification of thumbnails of photos representing clothes from Fashion-MNIST. Fashion-MNIST is a dataset of Zalando's article images-consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes. We'll be covering three classifiers: KNN and MLP.
+#Fashion-MNIST ##Introduction The clue of the task is to implement a model that allows classification of thumbnails of photos representing clothes from Fashion-MNIST. Fashion-MNIST is a dataset of Zalando's article images-consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes.
 
 Here we have an example of how the data looks:
 
