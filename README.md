@@ -2,14 +2,14 @@
 Metody Systemowe i Decyzyjne zadanie 4
 
 
-#Fashion-MNIST - Introduction The clue of the task is to implement a model that allows classification of thumbnails of photos representing clothes from Fashion-MNIST. Fashion-MNIST is a dataset of Zalando's article images-consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes.
+##Fashion-MNIST - Introduction The clue of the task is to implement a model that allows classification of thumbnails of photos representing clothes from Fashion-MNIST. Fashion-MNIST is a dataset of Zalando's article images-consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes.
 
 Here we have an example of how the data looks:
 
 ![fashion-mnist](./image/fashion-mnist.png)
 
 
-#KNN
+##KNN
 
 #First classifier we'll be covering is KNN (k-nearest neighbours). The Distance Metric I decided to use is Manhattan Distance. The KNN algorithm assumes that similar things exist in close proximity. K parameter represents number of neighbours we take into consideration.
 
@@ -47,7 +47,7 @@ Loss function — An algorithm for measuring how far the model’s outputs are f
 Optimizer — An algorithm for adjusting the inner parameters of the model to minimize loss. Adam optimization is a stochastic gradient descent method that is based on adaptive estimation of first-order and second-order moments. Unlike stochastic gradient descent, adam changes learning rate during training.
 Metrics — A metric is a function that is used to judge the performance of the model. Metric function is similar to loss functions, except that the results from evaluating a metric are not used when training the model. The following example uses accuracy, the fraction of the images that are correctly classified
 
-#My Results
+##My Results
 
 We are training the model in 10 epochs, using 512 sized batches. Batch size describes number of samples per gradient update.
 
@@ -55,3 +55,6 @@ We are training the model in 10 epochs, using 512 sized batches. Batch size desc
 
 ![accuPlot](./image/accuPlot.png)
 
+After training the model and broken down into validation data, we obtained the following results:
+KNN: k-nearest neighbours - 7 with 85,96% accuracy
+cnn_model with 89,82% accuracy on validation data
