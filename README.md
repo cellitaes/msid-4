@@ -58,4 +58,5 @@ We are training the model in 10 epochs, using 512 sized batches. Batch size desc
 After training the model and broken down into validation data, we obtained the following results:
 
 KNN: k-nearest neighbours - 7 with 85,96% accuracy
+
 cnn_model with 89,82% accuracy on validation data
