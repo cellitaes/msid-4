@@ -44,7 +44,9 @@ The dense layer is a neural network layer that is connected deeply, which means 
 ##Compiling the model
 
 Loss function — An algorithm for measuring how far the model’s outputs are from the desired output. Categorical crossentropy is a loss function that is used for single label categorization. This is when only one category is applicable for each data point so it exactly fits the problem.
+
 Optimizer — An algorithm for adjusting the inner parameters of the model to minimize loss. Adam optimization is a stochastic gradient descent method that is based on adaptive estimation of first-order and second-order moments. Unlike stochastic gradient descent, adam changes learning rate during training.
+
 Metrics — A metric is a function that is used to judge the performance of the model. Metric function is similar to loss functions, except that the results from evaluating a metric are not used when training the model. The following example uses accuracy, the fraction of the images that are correctly classified
 
 ##My Results
